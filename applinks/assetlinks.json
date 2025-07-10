@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.triplus.app",
+      "sha256_cert_fingerprints": [
+        "FA:CB:24:57:A1:B1:E6:A3:D5:C6:B4:E3:0C:96:AF:90:35:9C:A9:4D:5E:D5:46:41:75:23:70:AE:9B:44:C1:11",
+        "C0:76:65:CE:0F:D1:DC:B9:AE:A8:84:F7:BC:DD:FE:D9:A5:AB:8C:75:AD:DC:4B:B1:9D:E2:84:4B:60:8E:17:13"
+      ]
+    }
+  }
+]

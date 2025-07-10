@@ -1,0 +1,415 @@
+{
+  "locale": {
+    "ca": "Català",
+    "es": "Español"
+  },
+  "onboarding": {
+    "action_btn": "Començar",
+    "screen1": {
+      "top": "Benvinguts a Triplus, l'app del consum conscient",
+      "bottom": "Aquí trobaràs tota la informació dels productes alimentaris i sabràs per què han obtingut un segell o un altre"
+    },
+    "screen2": {
+      "top": "Escaneja el codi de barres del producte que vols conèixer o busca'l amb el cercador. Si no el tenim, avisa'ns!",
+      "bottom": "Marca els teus productes preferits i aprofita les recomanacions d'altres usuaris."
+    },
+    "screen3": {
+      "top": "Sigues part de la comunitat Triplus. Estigues al corrent de novetats i de tot el que hi passa!",
+      "bottom": "Acumula punts i posa't la capa del consum conscient!"
+    }
+  },
+  "tabs": {
+    "scan": "Escaneja",
+    "favorites": "Preferits",
+    "search": "Cerca",
+    "community": "Comunitat"
+  },
+  "unauthenticated": {
+    "user_required": "Per a poder accedir a aquesta funció, has d'estar registrat i tenir la sessió iniciada.",
+    "register_button": "Registrar-me",
+    "login_text": "Si ja tens compte, inicia la sessió:",
+    "login_button": "Iniciar la sessió"
+  },
+  "modal_close_btn": "Tancar",
+  "fetch_error": "Hi ha hagut un error en recuperar els resultats: ",
+  "user_dropdown": {
+    "login": "Iniciar la sessió",
+    "register": "Registrar-me",
+    "profile": "El meu perfil",
+    "experience": "Els meus punts",
+    "account": "Compte",
+    "settings": "Configuració",
+    "logout": "Tancar la sessió"
+  },
+  "settings_dropdown": {
+    "what_is_triplus": "Què és Triplus",
+    "contact": "Contacte",
+    "legal": "Avís legal",
+    "donate": "Fer un donatiu",
+    "faq": "FAQ",
+    "triplus_stamp": "El segell Triplus"
+  },
+  "auth": {
+    "fields": {
+      "name": "Nom d'usuari",
+      "email": "Email",
+      "password": "Contrasenya"
+    },
+    "login_page": {
+      "welcome": "Benvingut, benvinguda",
+      "title": "Identifica't",
+      "submit": "Inicia la sessió",
+      "forgot_password": "No recordes quina contrasenya tenies?",
+      "not_registered": {
+        "text": "No tens compte?",
+        "link": "Registrar-me"
+      }
+    },
+    "register_page": {
+      "title": "Crea't un compte",
+      "submit": "Registra'm",
+      "checkbox_terms_accept": "Accepto els",
+      "checkbox_terms_link": "termes i condicions legals",
+      "already_registered": {
+        "text": "Ja tens compte?",
+        "link": "Iniciar la sessió"
+      },
+      "errors": {
+        "required_terms": "Per a poder continuar, has d'acceptar els termes i condicions legals."
+      }
+    },
+    "forgot_password_page": {
+      "title": "Recuperar la contrasenya",
+      "subtitle": "Digue'ns amb quina adreça et vas registrar i t'hi farem arribar un enllaç perquè puguis establir una contrasenya nova:",
+      "submit": "Envia'm l'enllaç",
+      "message_sent": {
+        "title": "Missatge enviat!",
+        "message": "T'acabem d'enviar un missatge amb l'enllaç a la pàgina on podràs establir la nova contrasenya. Si no el reps, mira bé que no hagi anat a parar a la carpeta de correu brossa."
+      }
+    },
+    "reset_password_page": {
+      "title": "Restablir la contrasenya",
+      "subtitle": "Introdueix l'adreça de correu electrònic amb què et vas registrar i quina nova contrasenya vols.",
+      "submit": "Registra'm amb aquesta contrasenya",
+      "password_reset": {
+        "title": "La contrasenya s'ha restablert!"
+      }
+    }
+  },
+  "welcome": "Benvingut, Benvinguda,",
+  "search": {
+    "filters": {
+      "vegan": "Vegà",
+      "vegetarian": "Vegetarià",
+      "gluten_free": "Sense gluten",
+      "organic": "Ecològic",
+      "biodynamic": "Biodinàmic",
+      "fair_trade": "Comerç just"
+    },
+    "orderByOptions": {
+      "score": "Segell",
+      "name": "Nom",
+      "favorites": "Preferits"
+    },
+    "search_btn": "Cercar",
+    "filter_btn": "Filtrar",
+    "search_placeholder": "Nom del producte, empresa o marca",
+    "view_history_btn": "Veure l'històric",
+    "no_results": "No hem trobat cap resultat.",
+    "no_results_manual1": "Si buscaves un producte d'una marca en concret i encara no el tenim incorporat, digue'ns quin és. ",
+    "no_results_manual2": "Omple aquest formulari",
+    "no_results_manual3": " i contactarem l'empresa perquè s'adhereixi a Triplus!",
+    "results": "Resultats",
+    "company_num_products": {
+      "zero": "Cap producte incorporat",
+      "one": "%{count} producte incorporat",
+      "other": "%{count} productes incorporats"
+    },
+    "company_num_requested_products": {
+      "zero": "Cap producte suggerit",
+      "one": "%{count} producte suggerit",
+      "other": "%{count} productes suggerits"
+    },
+    "history": {
+      "title": "Històric",
+      "blank_state": "Encara no tens cerques fetes."
+    },
+    "fetch_error": "Hi ha hagut un error en la cerca: "
+  },
+  "community": {
+    "top_10_products": "Top 10 productes",
+    "top_10_users": "Top 10 usuaris",
+    "last_products": "Últims productes incorporats",
+    "last_product_requests": "Últims productes suggerits",
+    "last_actions": "Què està passant a Triplus?"
+  },
+  "company_profile": {
+    "products": "Productes avaluats"
+  },
+  "faqs": {
+    "title": "Preguntes freqüents",
+    "p1": "A la pàgina que t'enllacem a sota trobaràs resposta a les consultes més freqüents per a conèixer millor com funcionen el segell i l'app, i resoldre dubtes sobre el compte d'usuari, les notificacions o la funció de joc.",
+    "p2": "També, sobre la tipologia de productes i empreses que pots trobar a Triplus, com es fa tot el procés de verificació de la informació, qui hi ha darrere del projecte i com hi pots col·laborar.",
+    "p31": "Visita l'apartat de",
+    "p32": "Preguntes freqüents de Triplus",
+    "p33": "i, si encara et queda algun dubte,",
+    "p34": "contacta'ns;",
+    "p35": "te'l resoldrem de gust.",
+    "blank_state": "No hi ha preguntes i respostes encara."
+  },
+  "favorites": {
+    "last_community_favs": "Els últims que ha marcat la comunitat",
+    "my_favorites": "Els meus productes preferits",
+    "search": "Cerca entre els meus preferits"
+  },
+  "notifications": {
+    "blank_state": "No n'has rebut cap."
+  },
+  "add_product": {
+    "header_title": "Nou producte",
+    "title": "Alta de producte",
+    "fields": {
+      "name": "Nom del producte",
+      "format": "Format del producte",
+      "format_hint": "Paquet 250 g, peça 80 g, a granel, manat 25 u., ampolla 75 cl...",
+      "brand": "Marca",
+      "company": "Nom de l'empresa",
+      "email": "Email de l'empresa",
+      "comments": "Observacions",
+      "barcode": "Codi de barres",
+      "photo": "Fotografia frontal"
+    },
+    "action_btn": "Envia",
+    "messages": {
+      "exists": "Aquest producte ja hi és, a Triplus.",
+      "successful_upload": {
+        "title": "Petició registrada!",
+        "message": "Revisarem la informació que ens has facilitat d'aquest producte i, tan bon punt l'haguem validat, t'avisem de seguida. Contactarem l'empresa. A veure si aviat el podem tenir a l'app amb tots els detalls i completament avaluat. Gràcies!"
+      }
+    },
+    "errors": {
+      "required_photo": "Et falta afegir una fotografia frontal del producte."
+    }
+  },
+  "suggested_product": {
+    "info": "Aquest producte encara no ha estat incorporat a Triplus, però hi ha usuaris que voldrien veure'l avaluat i saber quin segell té. A tu també t'interessa?",
+    "send_btn": "Sí, aquest producte m'interessa",
+    "message_sent": {
+      "title": "Petició registrada!",
+      "message": "Gràcies! Farem saber a l'empresa que hi ha una nova petició per incorporar aquest producte a Triplus."
+    }
+  },
+  "product": {
+    "header_title": "Producte",
+    "report": {
+      "btn": "Informar d'un error o sospita",
+      "form": {
+        "title": "Informar d'un error o sospita",
+        "comment": "Explica'ns-ho aquí.",
+        "close": "Tancar"
+      },
+      "successful_messages": {
+        "title": "Missatge enviat correctament",
+        "message": "Gràcies. Ho revisarem."
+      }
+    },
+    "feature_hints": {
+      "vegan": "Producte vegà certificat",
+      "vegetarian": "Producte vegetarià",
+      "gluten_free": "Producte sense gluten certificat",
+      "organic": "Producte ecològic certificat",
+      "biodynamic": "Producte biodinàmic certificat",
+      "fair_trade": "Producte de comerç just certificat"
+    },
+    "descriptive_indicators": "Indicadors descriptius",
+    "genetic_material": "Sobirania del material genètic",
+    "genetic_material_info": "Puntuació:",
+    "model_ramader": "Model ramader",
+    "map": "Origen de les matèries primeres",
+    "stamp": "Segell i indicadors",
+    "escandall": "Escandall de costos",
+    "ingredients": "Ingredients",
+    "other_similar_products": "Altres productes similars",
+    "more_sustainable_alternatives": "Alternatives més sostenibles",
+    "other_brand_products": "Altres productes de la mateixa marca",
+    "modals": {
+      "stamp": {
+        "title": "Segell i indicadors",
+        "p1": "El segell permet saber l’impacte social, ambiental i econòmic del producte:",
+        "li1": "El color indica el grau de responsabilitat global tenint en compte el conjunt de les tres categories d’avaluació, de més responsable a menys: verd, verd clar, groc, taronja i vermell.",
+        "li2": "Els cercles mostren de forma gràfica la nota obtinguda en cada categoria: \n— de 0 a 2,49 -> 0 cercles\n— de 2,50 a 4,99 -> 1 cercle\n— de 5,00 a 7,49 -> 2 cercles\n— de 7,50 a 10 -> 3 cercles",
+        "p2": "Aquesta mateixa gradació de colors reforça també la nota obtinguda en cada categoria, subcategoria i en aquells indicadors que són essencials (indicadors estructurals) i que l’empresa ha hagut de respondre obligatòriament.",
+        "p3": "La puntuació que apareix sobre fons gris correspon als indicadors complementaris i permet millorar la nota, en cap cas baixar-la. L’empresa no està obligada a respondre’ls, fer-ho ja és un bon exercici de transparència i sempre tenen un impacte positiu."
+      },
+      "map": {
+        "title": "Origen de les matèries primeres",
+        "p1": "Al mapa podràs veure d’on prové el producte i els ingredients que el componen, o l’origen del pinso o farratge en cas de productes ramaders. En definitiva, podràs veure el recorregut que ha fet fins a arribar al mercat on el compres.",
+        "p21": "Un mapa de Catalunya indica que, com a mínim, 2/3 dels ingredients provenen de Catalunya; si l’empresa ho ha declarat, també podràs saber de quin municipi exactament.",
+        "p22": "Un mapa d’Espanya indica que, com a mínim, 2/3 dels ingredients provenen de l’estat; si l’empresa ho ha declarat, també podràs saber de quina comunitat autònoma o població.",
+        "p23": "Si provenen de fora de l’estat, n’indiquem la procedència amb una bandereta i el nom del país."
+      },
+      "material_genetic": {
+        "title": "Sobirania del material genètic",
+        "p1": "El color d’aquest símbol indica si el producte, o els ingredients que el componen, són varietats tradicionals o races autòctones o no, si han estat modificades genèticament o alguna empresa hi té drets.",
+        "p2": "En el cas de productes elaborats en què no tots els ingredients tenen el mateix grau de sobirania, la puntuació i color resulta d’un càlcul ponderat."
+      },
+      "model_ramader": {
+        "title": "Model ramader",
+        "p1": "La ramaderia extensiva aprofita prats, herbes i rostolls per alimentar el bestiar o l’aviram i es caracteritza per una densitat baixa d’animals. Es considera semiintensiva quan l’alimentació mitjançant pastura es suplementa amb pinso i s’estabula els animals durant un cert període, normalment durant la nit o l’hivern.",
+        "p2": "La ramaderia intensiva estabula el bestiar i tanca l’aviram en gàbies amb l’objectiu d’augmentar la producció en el mínim temps possible, i es caracteritza per una densitat elevada d’animals."
+      },
+      "escandall": {
+        "title": "Escandall de costos",
+        "p1": "Aquesta és la distribució de costos que l’empresa té fins a posar el producte a disposició del mercat. ",
+        "p2": "El marge de benefici ofereix un percentatge mitjà, perquè pot variar en funció de si l’empresa fa venda directa, el serveix directament als comerços o per mitjà d’algun intermediari."
+      }
+    }
+  },
+  "scanner": {
+    "requesting_permission": "Demanant permís per a accedir a la càmera",
+    "missing_permission": "Triplus necessita poder tenir accés a la càmera per a poder llegir els codis de barres.",
+    "cant_ask_again": "El permís per a accedir a la càmera s'ha de donar des de la configuració del sistema.",
+    "cant_ask_again_button": "Modificar la configuració",
+    "camera_not_found": "No s'ha trobat cap càmera.",
+    "placeholder": "Escaneja el codi de barres del producte",
+    "manual_input": "No té codi de barres / El lector no l'arriba a llegir.",
+    "reminder": "Recorda que Triplus és només per a productes alimentaris. No avalua productes d’higiene, neteja, alimentació animal o altres."
+  },
+  "scanner_manual": {
+    "search_text": "Assegura't primer que no el tinguem incorporat. Comprova-ho amb l'eina de cerca:",
+    "form_text": "Si no el tenim, pots suggerir-lo introduint-ne les dades manualment:",
+    "form_button": "Omplir el formulari per demanar-lo"
+  },
+  "experience_history": {
+    "title": "Històric",
+    "points": "punts",
+    "level": "Nivell",
+    "to_next_level": "Et falten %{points} punts per a arribar al següent nivell.",
+    "blank_state": "Encara no tens registres d'activitat.",
+    "levels": {
+      "1": "Visitamercats",
+      "2": "Repassalleixes",
+      "3": "Remenaprestatges",
+      "4": "Regirataulells",
+      "5": "Arrasalineals"
+    },
+    "how_to_button": "Com aconseguir-ne?",
+    "how_to_title": "Com aconseguir punts",
+    "how_to_text_1": "Per cada producte escanejat, 3 punts",
+    "how_to_text_2": "Per cada 10 productes escanejats, 20 punts més",
+    "how_to_text_3": "Per cada producte suggerit i validat, 10 punts",
+    "how_to_text_4": "Per cada 10 productes validats, 50 punts més",
+    "how_to_text_5": "Per cada petició que facis perquè una empresa s’adhereixi a Triplus, 5 punts",
+    "how_to_text_6": "Per cada 10 peticions, 30 punts més"
+  },
+  "profile": {
+    "form": {
+      "name": "Nom d'usuari",
+      "location": "Població",
+      "save_btn": "Desa"
+    }
+  },
+  "settings": {
+    "form": {
+      "language": "Idioma",
+      "notifications": "Notificacions",
+      "enabled": "Activades",
+      "disabled": "Desactivades",
+      "save_btn": "Desa",
+      "save_btn_loading": "Desant"
+    }
+  },
+  "user": {
+    "header_title": "Usuari",
+    "level": "Nivell",
+    "points": "punts",
+    "favorite_products": "Productes preferits"
+  },
+  "products": {
+    "blank_state": "Encara no hi ha productes.",
+    "not_found": "No n'hem trobat cap."
+  },
+  "product_not_found": {
+    "title": "Producte no trobat",
+    "message": "No hem trobat el producte que cerques.",
+    "suggest_addition": "Omplir el formulari per demanar-lo",
+    "go_back": "Tornar"
+  },
+  "pending_validation_product": {
+    "title": "Producte pendent de validació",
+    "message": "Aquest producte ja ha estat suggerit per un altre usuari i està pendent de ser validat per part de Triplus.",
+    "go_back": "Tornar"
+  },
+  "contact": {
+    "title": "Contacte",
+    "phone": "Per telèfon",
+    "telegram": "Per Telegram o Whatsapp",
+    "email": "Per correu electrònic",
+    "email1": "Consultes sobre l'app i els productes:",
+    "email2": "Informació per a empreses:",
+    "email3": "Consultes generals:"
+  },
+  "push_notification_permission_info_modal": {
+    "title": "Vols rebre notificacions?",
+    "message": "Vols rebre un avís cada cop que guanyis punts, pugis de nivell o quan et confirmem que hem validat algun producte que hagis demanat incorporar?\nSi dius que no, podràs veure el contingut d'aquests avisos igualment, accedint a l'apartat de «Notificacions».",
+    "allow": "Acceptar",
+    "deny": "No vull rebre notificacions"
+  },
+  "delete_account_modal": {
+    "toggle_button": "Eliminar el compte d'usuari",
+    "title": "Vols eliminar el compte?",
+    "message": "Si confirmes que el vols eliminar, serà eliminat definitivament i no es podrà recuperar, ni el compte ni les dades que ara hi estan relacionades.",
+    "allow": "Sí. Ho he entès. Elimina'l.",
+    "deny": "Cancel·lar"
+  },
+  "push_notification_permission_system_settings_modal": {
+    "title": "Configuració de permisos",
+    "message": "Per a poder rebre notificacions, has d'accedir a la configuració del telèfon i permetre-ho",
+    "allow": "Anar a configuració",
+    "deny": "Cancel·lar"
+  },
+  "que_es_triplus_page": {
+    "title": "Què és Triplus",
+    "t1": "Triplus és un segell ",
+    "p1": "clar i innovador que posa al teu abast informació completa sobre els productes alimentaris, per mitjà d'una aplicació mòbil.",
+    "t2": "Triplus és una eina de consum conscient ",
+    "p2": "per a conèixer l'impacte social, ambiental i econòmic d'allò que compres.",
+    "t3": "L'objectiu de Triplus és promoure la transparència ",
+    "p3": "i millorar el grau de responsabilitat global de les empreses i productes del sector alimentari.",
+    "t4": "Triplus és una iniciativa sense ànim de lucre",
+    "p4": ", perquè volem que tot l'esforç reverteixi en el conjunt de la societat. Treballem sense lobbies ni dependències de cap mena.",
+    "t5": "Triplus és un projecte promogut per entitats de l'economia social i solidària. ",
+    "p5": "Impulsat per Eixarcolant, Tres Cadires i L’Economat Social, ha comptat amb la col·laboració d’una trentena de productors, elaboradors i comerços, i el suport inicial del Departament d'Empresa i Treball de la Generalitat de Catalunya."
+  },
+  "donate_page": {
+    "title": "Fer un donatiu",
+    "t1": "Dona suport al projecte",
+    "p1": "Ajuda’ns a mantenir la gratuïtat de l’app, la independència del projecte i que les empreses més petites i artesanes puguin continuar adherint-s’hi amb una quota zero com fins ara.",
+    "p2": "Ajuda’ns a demostrar que és possible oferir un servei de qualitat i posar-lo a l’abast de tothom sense haver de recórrer a publicitat, vendre dades ni acceptar condicionants de cap mena.",
+    "p3": "Fem que aquesta app sigui una eina comunitària, sostinguda entre tots en la mesura de les possibilitats de cadascú, per corresponsabilitat i solidaritat.",
+    "p4": "Ens ajudes a fer créixer el projecte? El botó de sota et durà a la pàgina on t’expliquem com fer el donatiu:",
+    "button": "Vull donar suport al projecte",
+    "p5": "La creació de Triplus ha comptat amb el suport del Departament d’Empresa i Treball de la Generalitat de Catalunya. Avui, es finança a partir de les quotes de les empreses adherides i de les aportacions voluntàries de la comunitat."
+  },
+  "segell_triplus_page": {
+    "title": "El segell Triplus",
+    "t1": "Triple impacte positiu",
+    "p1": "El segell Triplus reuneix en un únic distintiu el grau de responsabilitat global del producte tenint en compte tres dimensions: com contribueix a la sostenibilitat ambiental, com contribueix a millorar la justícia i el benestar social, i com contribueix a dinamitzar econòmicament el territori.",
+    "t2": "Cinc colors per a la responsabilitat global",
+    "p2": "La responsabilitat global es presenta amb un dels cinc colors possibles: verd per als més responsables; i groc, taronja o vermell per als que mostren una clara voluntat de transparència tot i tenir més aspectes a millorar.",
+    "t3": "Tres categories avaluades separadament",
+    "p3": "També s'avalua l'impacte en cada categoria. En aquest cas, amb uns cercles negres o botons, i un nivell màxim de tres: cap botó si no assoleixen uns mínims de responsabilitat desitjable, un si els superen, dos si ho fan millor i prou bé, i tres si són un exemple a seguir.",
+    "t4": "Fins a 94 indicadors",
+    "p4": "Hi ha un total de 94 indicadors possibles, agrupats en 3 categories i 15 subcategories, alguns dels quals són obligatoris i altres, opcionals:",
+    "p4l1t": "Factors socials",
+    "p4l1p": ": ètica comunicativa i màrqueting, condicions laborals, governança, impacte territorial, perspectiva de gènere",
+    "p4l2t": "Factors ambientals",
+    "p4l2p": ": gestió de recursos (aigua, sòl, materials), model productiu i de gestió, processos ecològics, biodiversitat i resiliència ambiental, residus, energia",
+    "p4l3t": "Factors econòmics",
+    "p4l3p": ": preu just, generació d’ocupació, economia especulativa i cadena de valor, resiliència socioeconòmica, gestió financera",
+    "t5": "Indicadors estructurals i complementaris",
+    "p5": "Les puntuacions obtingudes en els indicadors estructurals (obligatoris) apareixen reforçades amb un color de fons, seguint el mateix criteri de cinc colors del segell; també les mitjanes obtingudes en cada subcategoria i categoria. Les puntuacions obtingudes en els indicadors complementaris (opcionals), en canvi, es mostren amb un fons gris, demostren la voluntat de transparència de l'empresa i sempre ajuden a millorar la nota, mai a baixar-la.",
+    "t6": "Autoavaluacions i auditories",
+    "p6": "Les empreses són les encarregades i responsables de fer l'autoavaluació dels diferents factors i Triplus els valida i audita posteriorment, oferint assessorament i guia per tal de millorar-los sempre que calgui."
+  }
+}

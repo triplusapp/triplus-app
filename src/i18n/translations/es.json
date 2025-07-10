@@ -1,0 +1,367 @@
+{
+  "locale": {
+    "ca": "Català",
+    "es": "Español"
+  },
+  "onboarding": {
+    "action_btn": "Empezar",
+    "screen1": {
+      "top": "Bienvenidos a Triplus, la app del consumo consciente",
+      "bottom": "Aquí encontrarás toda la información sobre los productos alimentarios y sabrás por qué han obtenido un sello u otro"
+    },
+    "screen2": {
+      "top": "Escanea el código de barras del producto que quieres conocer o búscalo con el buscador. ¡Si no lo tenemos, avísanos!",
+      "bottom": "Marca tus productos favoritos y aprovecha las recomendaciones de otros usuarios."
+    },
+    "screen3": {
+      "top": "Sé parte de la comunidad Triplus. ¡Mantente al día de novedades y de todo lo que ocurre aquí!",
+      "bottom": "¡Acumula puntos y ponte la capa del consumo consciente!"
+    }
+  },
+  "tabs": {
+    "scan": "Escanear",
+    "favorites": "Favoritos",
+    "search": "Buscar",
+    "community": "Comunidad"
+  },
+  "unauthenticated": {
+    "user_required": "Para poder acceder a esta función, es necesario estar registrado y haber iniciado la sesión.",
+    "register_button": "Registrarme",
+    "login_text": "Si ya dispones de cuenta, inicia la sesión:",
+    "login_button": "Iniciar la sesión"
+  },
+  "modal_close_btn": "Cerrar",
+  "fetch_error": "Se ha producido un error al recuperar los resultados: ",
+  "user_dropdown": {
+    "login": "Iniciar la sesión",
+    "register": "Registrarme",
+    "profile": "Mi perfil",
+    "experience": "Mis puntos",
+    "account": "Cuenta",
+    "settings": "Configuración",
+    "logout": "Cerrar la sesión"
+  },
+  "settings_dropdown": {
+    "what_is_triplus": "Qué es Triplus",
+    "contact": "Contacto",
+    "legal": "Aviso legal",
+    "donate": "Hacer un donativo",
+    "faq": "FAQ",
+    "triplus_stamp": "El sello Triplus"
+  },
+  "auth": {
+    "fields": {
+      "name": "Nombre de usuario",
+      "email": "E-mail",
+      "password": "Contraseña"
+    },
+    "login_page": {
+      "welcome": "Bienvenido, bienvenida",
+      "title": "Identifícate",
+      "submit": "Inicia la sesión",
+      "forgot_password": "¿Olvidaste tu contraseña?",
+      "not_registered": {
+        "text": "¿No tienes cuenta?",
+        "link": "Registrarme"
+      }
+    },
+    "register_page": {
+      "title": "Crea tu cuenta",
+      "submit": "Regístrame",
+      "checkbox_terms_accept": "Acepto los",
+      "checkbox_terms_link": "términos y condiciones legales",
+      "already_registered": {
+        "text": "¿Ya tienes cuenta?",
+        "link": "Iniciar la sesión"
+      },
+      "errors": {
+        "required_terms": "Debes aceptar los términos y condiciones legales para proseguir."
+      }
+    },
+    "forgot_password_page": {
+      "title": "Recuperar la contraseña",
+      "subtitle": "Introduce la dirección de correo electrónico con la que te registraste y te enviaremos un enlace para establecer una contraseña nueva:",
+      "submit": "Envíame ese enlace",
+      "message_sent": {
+        "title": "¡Mensaje enviado!",
+        "message": "Acabamos de enviarte un mensaje con el enlace a la página en la que podrás establecer tu nueva contraseña. Si no lo recibes, comprueba que no haya sido clasificado erróneamente como correo no deseado."
+      }
+    },
+    "reset_password_page": {
+      "title": "Restablecer la contraseña",
+      "subtitle": "Introduce la dirección de correo electrónico con la que te registraste y qué nueva contraseña deseas establecer.",
+      "submit": "Regístrame con esta contraseña",
+      "password_reset": {
+        "title": "Su contraseña ha sido restablecida."
+      }
+    }
+  },
+  "welcome": "Bienvenido, Bienvenida,",
+  "search": {
+    "filters": {
+      "vegan": "Vegano",
+      "vegetarian": "Vegetariano",
+      "gluten_free": "Sin gluten",
+      "organic": "Orgánico",
+      "biodynamic": "Biodinámico",
+      "fair_trade": "Comercio justo"
+    },
+    "orderByOptions": {
+      "score": "Sello",
+      "name": "Nombre",
+      "favorites": "Favoritos"
+    },
+    "search_btn": "Buscar",
+    "filter_btn": "Filtrar",
+    "search_placeholder": "Nombre del producto, empresa o marca",
+    "view_history_btn": "Ver mi historial",
+    "no_results": "No se han encontrado resultados.",
+    "no_results_manual1": "Si buscabas un producto de una marca en concreto y no aparece incorporado, indícanos cuál es. ",
+    "no_results_manual2": "Rellena este formulario",
+    "no_results_manual3": " y nos pondremos en contacto con la empresa para que se adhiera a Triplus.",
+    "results": "Resultados",
+    "company_num_products": {
+      "zero": "Ningún producto incorporado",
+      "one": "%{count} producto incorporado",
+      "other": "%{count} productos incorporados"
+    },
+    "company_num_requested_products": {
+      "zero": "Ningún producto solicitado",
+      "one": "%{count} producto solicitado",
+      "other": "%{count} productos solicitados"
+    },
+    "history": {
+      "title": "Historial",
+      "blank_state": "No has realizado ninguna búsqueda todavía."
+    },
+    "fetch_error": "Se ha producido un error en la búsqueda: "
+  },
+  "community": {
+    "top_10_products": "Top 10 productos",
+    "top_10_users": "Top 10 usuarios",
+    "last_products": "Últimos productos incorporados",
+    "last_product_requests": "Últimos productos solicitados",
+    "last_actions": "¿Qué está pasando en Triplus?"
+  },
+  "company_profile": {
+    "products": "Productos evaluados"
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "p1": "En la página que te enlazamos abajo encontrarás respuesta a las consultas más frecuentes para conocer mejor cómo funcionan el sello y la app, y resolver dudas sobre la cuenta de usuario, las notificaciones o la función de juego.",
+    "p2": "También, sobre la tipología de productos y empresas que puedes encontrar en Triplus, cómo se realiza todo el proceso de verificación de la información, quién está detrás del proyecto y cómo puedes colaborar.",
+    "p31": "Visita el apartado de",
+    "p32": "Preguntas frecuentes de Triplus",
+    "p33": "y, si aún te queda alguna duda,",
+    "p34": "contáctanos;",
+    "p35": "te la resolveremos con gusto.",
+    "blank_state": "Todavía no hay preguntas y respuestas."
+  },
+  "favorites": {
+    "last_community_favs": "Los últimos marcados por la comunidad",
+    "my_favorites": "Mis productos favoritos",
+    "search": "Buscar entre mis favoritos"
+  },
+  "notifications": {
+    "blank_state": "No has recibido ninguna."
+  },
+  "add_product": {
+    "header_title": "Nuevo producto",
+    "title": "Alta de producto",
+    "fields": {
+      "name": "Nombre del producto",
+      "format": "Formato del producto",
+      "format_hint": "Paquete 250 g, pieza 80 g, a granel, manojo 25 u., botella 75 cl...",
+      "brand": "Marca",
+      "company": "Nombre de la empresa",
+      "email": "E-mail de la empresa",
+      "comments": "Comentarios",
+      "barcode": "Código de barras",
+      "photo": "Foto frontal"
+    },
+    "action_btn": "Envía",
+    "messages": {
+      "exists": "Este producto ya existe en Triplus.",
+      "successful_upload": {
+        "title": "¡Petición registrada!",
+        "message": "Revisaremos la información que nos has facilitado para este producto y te avisaremos tan pronto lo hayamos validado. Contactaremos con la empresa. Esperamos poderlo tener pronto disponible en la app con todos sus detalles y la evaluación completa. ¡Gracias!"
+      }
+    },
+    "errors": {
+      "required_photo": "Debes añadir una foto frontal del producto."
+    }
+  },
+  "suggested_product": {
+    "info": "Este producto no ha sido incorporado a Triplus todavía, pero hay otros usuarios que querrían verlo evaluado y saber qué sello le correspondería. ¿Tienes tú también interés en él?",
+    "send_btn": "Sí, este producto me interesa",
+    "message_sent": {
+      "title": "¡Petición registrada!",
+      "message": "¡Gracias! Haremos saber a la empresa que hay una nueva solicitud para poder contar con este producto en Triplus."
+    }
+  },
+  "product": {
+    "header_title": "Producto",
+    "report": {
+      "btn": "Informar de un error o sospecha",
+      "form": {
+        "title": "Informar de un error o sospecha",
+        "comment": "Cuéntanoslo aquí.",
+        "close": "Cerrar"
+      },
+      "successful_messages": {
+        "title": "Mensaje enviado correctamente",
+        "message": "Gracias. Lo revisaremos."
+      }
+    },
+    "feature_hints": {
+      "vegan": "Producto vegano certificado",
+      "vegetarian": "Producto vegetariano",
+      "gluten_free": "Producto sin gluten certificado",
+      "organic": "Producto ecológico certificado",
+      "biodynamic": "Producto biodinámico certificado",
+      "fair_trade": "Producto de comercio justo certificado"
+    },
+    "descriptive_indicators": "Indicadores descriptivos",
+    "genetic_material": "Soberanía del material genético",
+    "genetic_material_info": "Puntuación:",
+    "model_ramader": "Modelo ganadero",
+    "map": "Origen de las materias primas",
+    "stamp": "Sello e indicadores",
+    "escandall": "Desglose de costes",
+    "ingredients": "Ingredientes",
+    "other_similar_products": "Otros productos similares",
+    "more_sustainable_alternatives": "Alternativas más sostenibles",
+    "other_brand_products": "Otros productos de la misma marca",
+    "modals": {
+      "stamp": {
+        "title": "Sello e indicadores",
+        "p1": "El sello permite conocer el impacto social, ambiental y económico del producto:",
+        "li1": "El color indica el grado de responsabilidad global teniendo en cuenta el conjunto de las tres categorías de evaluación, de mayor a menor responsabilidad: verde, verd claro, amarillo, naranja y rojo.",
+        "li2": "Los círculos muestran de forma gráfica la nota obtenida en cada categoría: \n— de 0 a 2,49 -> 0 círculos\n— de 2,50 a 4,99 -> 1 círculo\n— de 5,00 a 7,49 -> 2 círculos\n— de 7,50 a 10 -> 3 círculos",
+        "p2": "La misma gradación de colores refuerza también la nota obtenida en cada categoría, subcategoría y en aquellos indicadores que, siendo esenciales (indicadores estructurales), la empresa ha tenido que responder obligatoriamente.",
+        "p3": "La puntuación que aparece sobre fondo gris corresponde a los indicadores complementarios; estos permiten mejorar nota, pero en ningún caso bajarla. La empresa no está obligada a responderlos, aunque su evaluación demuestra un buen ejercicio de transparencia y su impacto es siempre positivo."
+      },
+      "map": {
+        "title": "Origen de las materias primas",
+        "p1": "En el mapa podrás observar de dónde procede el producto y sus ingredientes, e incluso conocer el origen del pienso o pasto en caso de productos ganaderos. En definitiva, ver el recorrido realizado hasta llegar al mercado donde lo adquieres.",
+        "p21": "Un mapa de Cataluña indica que, como mínimo, 2/3 de los ingredientes proceden de Cataluña; si la empresa lo ha indicado, incluso de qué municipio exactamente.",
+        "p22": "Un mapa de España indica que, como mínimo, 2/3 de los ingredientes proceden del estado español; si la empresa lo ha indicado, también podrás conocer de qué comunidad autónoma o localidad.",
+        "p23": "Si proceden de otros países, el origen aparecerá indicado con una banderita y el nombre del país."
+      },
+      "material_genetic": {
+        "title": "Soberanía del material genético",
+        "p1": "El color de este símbolo indica si el producto, o sus ingredientes, son variedades tradicionales o razas autóctonas o no, si han sido modificadas genéticamente o alguna empresa tiene derechos sobre ellos.",
+        "p2": "En el caso de productos elaborados en los que no todos los ingredientes tengan el mismo grado de soberanía, la puntuación y el color mostrados resultarán de un cálculo ponderado."
+      },
+      "model_ramader": {
+        "title": "Modelo ganadero",
+        "p1": "La ganadería extensiva aprovecha pastos, hierbas y ratrojos para alimentar el ganado o las aves de corral y se caracteriza por tener una baja densidad de animales. Se considera semiintensiva cuando la alimentación de pasto es suplementada con pienso y los animales permanecen estabulados durante un tiempo, normalmente durante la noche o en invierno.",
+        "p2": "La ganadería intensiva estabula el ganado y encierra las aves en jaulas con el objeto de aumentar la producción en el mínimo tiempo posible; en este caso la densidad de animales es elevada."
+      },
+      "escandall": {
+        "title": "Desglose de costes",
+        "p1": "Esta es la distribución de costes de la empresa hasta poner el producto a disposición del mercado.",
+        "p2": "El margen de beneficio muestra un porcentaje medio, ya que puede variar en función de si la empresa realiza venta directa, sirve el producto directamente a los comercios o cuenta con algún intermediario."
+      }
+    }
+  },
+  "scanner": {
+    "requesting_permission": "Solicitando permiso para la cámara",
+    "missing_permission": "Triplus necesita tener acceso a la cámara para poder leer los códigos de barras.",
+    "cant_ask_again": "El permiso para acceder a la cámara debe darse desde la configuración del sistema.",
+    "cant_ask_again_button": "Modificar la configuración",
+    "camera_not_found": "No se ha encontrado ninguna cámara",
+    "placeholder": "Escanea el código de barras del producto",
+    "manual_input": "No tiene código de barras / El lector no consigue leerlo.",
+    "reminder": "Recuerda que Triplus es solo para productos alimentarios. No evalúa productos de higiene, limpieza, alimentación animal u otros."
+  },
+  "scanner_manual": {
+    "search_text": "Asegúrate de que el producto no esté ya incorporado. Utiliza el botón de búsqueda para comprobarlo:",
+    "form_text": "Si no consta, puedes solicitarlo indicando algunos de sus datos de forma manual:",
+    "form_button": "Rellenar el formulario de solicitud"
+  },
+  "experience_history": {
+    "title": "Historial",
+    "points": "puntos",
+    "level": "Nivel",
+    "to_next_level": "Te faltan %{points} puntos para llegar al siguiente nivel.",
+    "blank_state": "No tienes registros de actividad todavía.",
+    "levels": {
+      "1": "De visita",
+      "2": "Con interés",
+      "3": "Analizando",
+      "4": "Dominando el tema",
+      "5": "Un genio"
+    },
+    "how_to_button": "¿Cómo conseguirlos?",
+    "how_to_title": "Cómo conseguir puntos",
+    "how_to_text_1": "Por cada producto escaneado, 3 puntos",
+    "how_to_text_2": "Por cada 10 productos escaneados, 20 puntos más",
+    "how_to_text_3": "Por cada producto solicidato y validado, 10 puntos",
+    "how_to_text_4": "Por cada 10 productos validados, 50 puntos más",
+    "how_to_text_5": "Por cada petición para que una empresa se adhiera a Triplus, 5 puntos",
+    "how_to_text_6": "Por cada 10 peticiones, 30 puntos más"
+  },
+  "profile": {
+    "form": {
+      "name": "Nombre de usuario",
+      "location": "Población",
+      "save_btn": "Guarda"
+    }
+  },
+  "settings": {
+    "form": {
+      "language": "Idioma",
+      "notifications": "Notificaciones",
+      "enabled": "Activadas",
+      "disabled": "Desactivadas",
+      "save_btn": "Guarda",
+      "save_btn_loading": "Guardando"
+    }
+  },
+  "user": {
+    "header_title": "Usuario",
+    "level": "Nivel",
+    "points": "puntos",
+    "favorite_products": "Productos preferidos"
+  },
+  "products": {
+    "blank_state": "No hay productos todavía.",
+    "not_found": "No hemos identificado ninguno."
+  },
+  "product_not_found": {
+    "title": "Producto no encontrado",
+    "message": "El producto buscado no se ha encontrado.",
+    "suggest_addition": "Añadir a la base de datos",
+    "go_back": "Volver"
+  },
+  "pending_validation_product": {
+    "title": "Producto pendiente de validación",
+    "message": "Este producto ya ha sido solicitado por otro usuario y está pendiente de ser validado por parte de Triplus.",
+    "go_back": "Volver"
+  },
+  "contact": {
+    "title": "Contacto",
+    "phone": "Teléfono",
+    "email": "Correo electrónico"
+  },
+  "delete_account_modal": {
+    "toggle_button": "Eliminar la cuenta de usuario",
+    "title": "¿Quieres eliminar la cuenta?",
+    "message": "Si confirmas que quieres eliminarla, se eliminará definitivamente y no se podrá recuperar, ni la cuenta ni los datos que ahora están relacionados.",
+    "allow": "Sí. Lo he entendido. Elimínala.",
+    "deny": "Cancelar"
+  },
+  "push_notification_permission_info_modal": {
+    "title": "¿Desas recibir notificaciones?",
+    "message": "¿Deseas recibir un aviso cada vez que obtengas puntos, subas de nivel o para informarte de que hemos validado alguno de los productos que hayas pedido incorporar? \nSi dices que no, podrás ver este contenido igualmente, accediendo al apartado de «Notificaciones».",
+    "allow": "Aceptar",
+    "deny": "No quiero recibir notificaciones"
+  },
+  "push_notification_permission_system_settings_modal": {
+    "title": "Configuracióm de permisos",
+    "message": "Para poder recibir notificaciones, debes acceder a la configuración de tu teléfono y permitirlo.",
+    "allow": "Ir a configuración",
+    "deny": "Cancelar"
+  }
+}

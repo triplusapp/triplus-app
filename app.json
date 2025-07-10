@@ -1,0 +1,109 @@
+{
+  "expo": {
+    "name": "Triplus",
+    "slug": "triplus",
+    "version": "1.1.2",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "triplus",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "16",
+      "supportsTablet": false,
+      "bundleIdentifier": "com.triplus.app",
+      "associatedDomains": [
+        "applinks:applinks.triplus.app"
+      ],
+      "icon": {
+        "dark": "./assets/images/icon-ios-dark.png",
+        "light": "./assets/images/icon.png",
+        "tinted": "./assets/images/icon-ios-tinted.png"
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 16,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#00D163"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.triplus.app",
+      "googleServicesFile": "./google-services.json",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "applinks.triplus.app",
+              "pathPrefix": "/goto"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "plugins": [
+      "expo-localization",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Triplus fa servir la càmera per escanejar codis de barres."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "L'aplicació accedeix a les teves fotos per fer-les servir com a foto de perfil."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#f9f3e5",
+          "image": "./assets/images/splash.png",
+          "imageWidth": 200
+        }
+      ],
+      "expo-secure-store",
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/Roobert-Bold.otf",
+            "./assets/fonts/Roobert-Regular.otf"
+          ]
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0"
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4bb84b24-bb64-4d4f-be4d-c7389e66aa04"
+      }
+    },
+    "owner": "creagia"
+  }
+}

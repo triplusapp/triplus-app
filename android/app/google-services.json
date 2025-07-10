@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "800988835916",
+    "project_id": "triplus-41916",
+    "storage_bucket": "triplus-41916.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800988835916:android:8b5e5e699ab5bd9b2484e9",
+        "android_client_info": {
+          "package_name": "com.triplus.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLV0orqqjopPaXbnZgrk2FleHQNE7OawI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
